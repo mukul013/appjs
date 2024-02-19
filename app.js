@@ -1991,8 +1991,13 @@ function file_video(
           <div class="${
             UI.file_view_alert_class
           }" id="file_details" role="alert">${name}<br>${size}</div> ${player} </div>
+
+		  <div class="text-center">
+          <div class="${
+            UI.file_view_alert_class
+          }" id="file_details" role="alert">${name}<br>${size}</div> ${player} </div>
         </br>
-		<div>${player}</div>
+		
         ${
           UI.disable_video_download
             ? ``
