@@ -1464,6 +1464,7 @@ function file_video(name, encoded_name, size, poster, url, mimeType, file_id, co
 		}
 	}
 	// Add the container and card elements
+	console.log("PLAYER -> ",player)
 	var content = `
     <div class="container text-center"><br>
       <nav aria-label="breadcrumb">
@@ -1480,9 +1481,7 @@ function file_video(name, encoded_name, size, poster, url, mimeType, file_id, co
           <div class="input-group mb-4">
           <input type="text" class="form-control" id="dlurl" value="URL + ${url}" readonly>
           </div>
-		  <div class="input-group mb-4">
-            <input type="text" class="form-control" id="iframeCode" value="<iframe src='${window.location.href}' width='640' height='360' frameborder='0' allowfullscreen></iframe>" readonly>
-          </div>
+		  
           <div class="btn-group text-center">
               <a href="${url}" type="button" class="btn btn-primary">Download</a>
               <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
