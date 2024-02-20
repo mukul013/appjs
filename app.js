@@ -1486,7 +1486,7 @@ function file_video(name, encoded_name, size, poster, url, mimeType, file_id, co
 			`+copyButton+copyFileBox+`
 
 			<div class="input-group mb-4">
-			<input type="text" class="form-control" id="dlurl" value="URL + ${url}" readonly>
+			<input type="text" class="form-control" id="dlurl" value="${url}" readonly>
 			</div>
 		  
 			<div class="btn-group text-center">
