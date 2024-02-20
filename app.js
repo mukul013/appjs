@@ -1483,7 +1483,7 @@ function file_video(name, encoded_name, size, poster, url, mimeType, file_id, co
 			<input type="text" class="form-control" id="dlurl" value="https://sorceryhub.com/play.php?url=${url}" readonly>
 			</div>
 			`+copyButton+copyFileBox+`
-			</br>
+			<div class="mb-4"></div>
 			<div class="input-group mb-4">
 			<input type="text" class="form-control" id="dlurl" value="${url}" readonly>
 			</div>
